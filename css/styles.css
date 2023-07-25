@@ -57,22 +57,6 @@ ul{
     bottom:-29px;
 }
 
-/* .after:after{
-    position: absolute;
-    content:´´;
-    border-radius: 2px; 
-    border-radius: 10px #757575;
-    bottom: 0;
-    width: 78px;
-    height: 4px;
-    flex-shrink: 0;
-    left: 0;
-}
-
-.after:hover{
-    color: #2196f3;
-} */
-
 .web-logo{
     color: #2196f3;
     text-align: right;
@@ -192,11 +176,11 @@ ul{
     background-color: #111111bd;
     display: flex;
     transition: opacity 300ms ease,visibility 300ms ease;
-    opacity: 100%;
+    opacity: 1;
     pointer-events: auto;
 }
 
-.backdrop .is-hidden{
+.is-hidden{
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
@@ -233,11 +217,11 @@ ul{
 }
 
 .modal-btn-close:hover{
-    border: 1px #2196F3;
+    border:solid #2196f3 1px;
 }
 
-.modal-btn-close:hover .modal-svg-close{
-    fill: #2196F3;
+.modal-svg-close:hover{
+    fill:#2196f3;
 }
 
 .modal-title-form{
@@ -271,6 +255,10 @@ ul{
     border-color: #21212121
 }
 
+.modal-input:hover{
+    border: #2196f3;
+}
+
 .modal-icon-svg{
     position: absolute;
     width: 18px;
@@ -290,22 +278,17 @@ ul{
     border-color: #21212121
 }
 
-.modal-input-description::placeholder{
-    position: absolute;
-    top: 12px;
-}
-
-.modal-input:hover, .modal-input:focus{
-    border: 1px #2196F3;
-}
 .modal-input:hover + .modal-icon-svg,
 .modal-input:focus + .modal-icon-svg{
     fill: #2196F3;
     cursor: pointer;
 } 
 
-.modal-input-description:hover, .modal-input-description:focus{
+.modal-input-description:hover{
     border: 1px #2196F3;
+} 
+.modal-input-description:focus{
+    fill: 1px #2196F3;
 }
 
 .visually-hidden {
@@ -789,6 +772,7 @@ ul{
 }
 
 .modal-input-footer{
+    color: #ECECEC;
     display: block;
     padding-left: 10px;
     outline: none;
