@@ -240,6 +240,7 @@ ul{
     font-size: 20px;
     font-style: normal;
     line-height: normal;
+    letter-spacing: 0.6px;
 }
 
 .modal-label{
@@ -602,8 +603,8 @@ ul{
 }
 
 .container-redes{
-    margin-left: 400px;
-    margin-top: -131px;
+    margin-left: 350px;
+    margin-top: -151px;
 }
 
 .tittle-footer{
@@ -665,7 +666,7 @@ ul{
 .container-sus{
     width: 570px;
     height: 86px;
-    margin-left: 660px;
+    margin-left: 635px;
     margin-top: -95px;
 }
 
@@ -824,7 +825,7 @@ ul{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin: 15px;
     margin-top: -56px;
-    margin-left: 1020px;
+    margin-left: 980px;
 }
 
 .icon-svg-sus{
